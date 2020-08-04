@@ -1,0 +1,101 @@
+html,body{
+    background-color: rgb(114, 114, 114);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container{
+    padding: 10pt;
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #424242;
+  }
+
+  .misha {
+    color: brown;
+  }
+  .adonis {
+      color: rgb(58, 206, 90);
+  }
+  .nova {
+      color: rgb(26, 127, 243);
+  }
+  p {
+    font-family: 'Amatic SC', cursive;
+      color: aqua;
+      font-size: 2em;
+      text-align: center;
+      padding: 25%;
+      opacity: 0;
+      margin-top: -5%;
+  }
+
+  /** This is where all the hover effects are**/
+  .gallery-wrap {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+  }
+  
+  .item {
+    flex: 1.5;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: flex 1s ease;
+  }
+  p:hover {
+    opacity: 1;
+  }
+    div:hover{
+      flex: 3;
+    }
+    /** Made different flex sizes for bottom three images **/
+    div.item-6:hover {
+        flex: 2.5;
+    }
+    div.item-7:hover {
+        flex: 2.5;
+    }
+    div.item-8:hover {
+        flex: 2.5;
+    }
+
+  /** Image sources **/
+
+  .item-1 { 
+    background-image: url("./imagefolder/snow.jpg");
+  }
+  
+  .item-2 { 
+    background-image: url("./imagefolder/fox.jpg");
+  }
+  
+  .item-3 { 
+    background-image: url("./ImageFolder/waterski.jpg");
+  }
+  
+  .item-4 { 
+    background-image: url('./ImageFolder/cowbegone.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url("./ImageFolder/redbike.jpg");
+  }
+  .item-6 {
+    background-image: url("./ImageFolder/Misha.JPG");
+  }
+  
+  .item-7 {
+    background-image: url("./ImageFolder/Adonis.JPG");
+  }
+  
+  .item-8 {
+    background-image: url("./ImageFolder/Nova.JPG");
+  }
