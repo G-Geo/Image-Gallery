@@ -81,11 +81,11 @@ html,body{
   /** Image sources **/
 
   .item-1 { 
-    background-image: url("./Imagefolder/snow.jpg");
+    background-image: url("./ImageFolder/snow.jpg");
   }
   
   .item-2 { 
-    background-image: url("./Imagefolder/fox.jpg");
+    background-image: url("./ImageFolder/fox.jpg");
   }
   
   .item-3 { 
